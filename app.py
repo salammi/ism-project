@@ -155,7 +155,7 @@ elif choice == "Search & View":
                 # Display Image
                 image_path = entry[5]
                 if image_path and os.path.exists(image_path):
-                    st.image(image_path, use_container_width=True)
+                    st.image(image_path, width=True)
                 
                 # Action Buttons
                 c1, c2, c3, c4, c_space = st.columns([0.6, 0.6, 0.8, 0.8, 4])
