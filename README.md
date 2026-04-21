@@ -4,7 +4,8 @@ to run: python -m streamlit run app.py
 
 to view db: use DB Browser for SQLite
 
-a success run í like this:
+a success run is like this:
+
 PS C:\Users\Duc\Desktop\kms> python -m streamlit run app.py
 
       Welcome to Streamlit!
